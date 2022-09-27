@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'caja-grande',
     loadChildren: () => import('./caja/caja-grande/caja-grande.module').then( m => m.CajaGrandePageModule)
+  },
+  {
+    path: 'caja-mediana',
+    loadChildren: () => import('./caja/caja-mediana/caja-mediana.module').then( m => m.CajaMedianaPageModule)
   }
 ];
 
