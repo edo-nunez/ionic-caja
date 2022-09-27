@@ -11,6 +11,5 @@ export class AppComponent {
     { title: 'Caja grande', url: '/caja-grande', icon: 'box' },
 
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
 }
